@@ -1,0 +1,284 @@
+/********************************************************************************************/
+/* Reset
+/* Page layout
+/* Typography and links
+/* Common and reusable styles
+/* Page or/and section specific styles
+/********************************************************************************************/
+/* Reset
+/********************************************************************************************/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, 
+code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, 
+figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	border: 0; 
+	margin: 0; 
+	padding: 0; 
+	outline: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+table { 
+	border-collapse: collapse; 
+	border-spacing: 0; 
+}
+
+caption, th { 
+	text-align: left; 
+}
+
+/********************************************************************************************/
+/* Page layout, graphics and navigation
+/********************************************************************************************/
+
+body {
+	color: #000;
+	font-family: arial, helvetica, Trebuchet MS;
+	font-size: 62.5%;
+}
+
+/********************************************************************************************/
+/* Typography and links
+/********************************************************************************************/
+
+/* Links */
+a { 
+	outline: none; 
+	text-decoration: none; 
+}
+
+a img { 
+	border: none; 
+}
+
+a:link, a:visited { 
+	color: blue; 
+}
+
+a:hover, a:active { 
+	color: blue; 
+}
+
+a:focus { 
+	color: blue; 
+}
+
+/********************************************************************************************/
+/* Common and reusable styles
+/********************************************************************************************/
+
+
+
+/********************************************************************************************/
+/* Page or section specific styles
+/********************************************************************************************/
+
+
+
+/* Page or section */
+/********************************************************************************************/
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	color: #444;
+	font-family: "Helvetica Neue",arial,sans-serif;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	color: #288CE4;
+	-webkit-transition: color linear .1s;
+	-moz-transition: color linear .1s;
+	-ms-transition: color linear .1s;
+	-o-transition: color linear .1s;
+	transition: color linear .1s;
+}
+
+div#header h1 {
+	position: absolute;
+	width:300px;
+	left:50%;
+	margin-left:-150px;
+	text-align: center;
+	font-size:20px;
+}
+
+/* comment */
+div#content {
+	position: relative;
+}
+
+ul {
+	margin: 10px;
+	border: 1px solid #000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+li {
+	padding:10px;
+}
+li.data:nth-child(even) { background-color:#fff67f }
+#deviations li.th {
+	background-color: #004bcd;
+	color:#FFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+div#progress {
+	position: absolute;
+	top:0px;
+	right:80px;
+	padding:13px 20px;
+	text-align: right;
+	color:white;
+	z-index: 2;
+	background-color: #c1c1c1;
+}
+span#errors.done #errorHeader #errorCount {
+	color:#009900;
+}
+
+span#errors {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	min-width: 100px;
+	background-color: #c1c1c1;
+	padding: 12px 10px 13px 0px;
+	z-index: 1;
+}
+span#errors > ul.error_open {
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-left-radius: 8px;
+}
+span#errors ul {
+	margin: 0px;
+	padding: 0px 0px 0px 15px;;
+	border: none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	clear:both;
+}
+span#errors ul li.th {
+	padding:0;
+	background-color: none!important;
+	color:#FFF;
+	float: right;
+	padding: 0 14px;
+}
+span#errors ul li.th span#errorCount {
+	float: right;
+}
+
+span#errors ul li.hasErrors {
+	color:#ec5353;
+	font-weight: bold;
+	background: url(../images/arrow_right.gif) no-repeat right 7px;
+	float: right;
+}
+
+span#errors ul#errorList {
+	padding: 5px 0 5px;
+}
+span#errors ul.error_open li.th {
+	background: url(../images/arrow_down.gif) no-repeat right 7px;
+}
+ul#errorList {
+	display:none;
+}
+ul#errorList.error_open {
+	display:block;
+}
+ul#errorList li {
+	margin: 0;
+	padding: 10px 0px 0px 17px;
+	color: gray;
+	font-weight: normal;
+	font-size: 12px;
+	background-image: url(../images/warning_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+	padding-left: 21px;
+}
+.errorURL {
+	font-size: 10px;
+}
+
+
+#local {
+	width: 50%;
+	float: left;
+
+}
+#global {
+	width: 50%;
+	float: left;
+	padding-right:10px;
+}
+
+div#header {
+	position:absolute;
+	top:0;
+	width:100%;
+	background-color: #ccc;
+	padding:10px;
+}
+
+#deviations {
+	position: relative;
+	top:44px;
+}
+
+ul.localesData {
+	margin:10px 0 0 0;
+	border:none;
+	webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+ul.closed {
+	display:none;
+}
+ul.open {
+	display:block;
+}
+
+ul.localesData li { 
+	height:1%;
+	overflow:hidden;
+	padding:10px;
+	margin:-1px 0 0;
+	background-color: #fff;
+}
+ul.localesData li:nth-child(even) { background-color:#eee }
+
+.right {
+	float: right;
+}
+.hidden {
+	display:none;
+}

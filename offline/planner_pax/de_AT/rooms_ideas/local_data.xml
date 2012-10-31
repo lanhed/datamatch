@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<local_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="local_data.xsd">
+    <plannerLocale>
+    
+        <textGroup id="General" type="copy">
+        
+            <text id="TEST"><![CDATA[Take a tour]]></text>
+        
+            <text id="GeneralButton_test"><![CDATA[Take a tour]]></text>
+        
+            <text id="GeneralButton_tour"><![CDATA[Take a tour]]></text>
+        
+            <text id="GeneralButton_ok"><![CDATA[Ok]]></text>
+        
+            <text id="GeneralButton_cancel"><![CDATA[Cancel]]></text>
+        
+            <text id="GeneralButton_save"><![CDATA[Save]]></text>
+        
+            <text id="GeneralButton_undo"><![CDATA[Undo]]></text>
+        
+            <text id="GeneralButton_redo"><![CDATA[Redo]]></text>
+        
+            <text id="GeneralButton_continue"><![CDATA[Continue]]></text>
+        
+            <text id="GeneralButton_new"><![CDATA[Create new]]></text>
+        
+            <text id="GeneralButton_back"><![CDATA[Back]]></text>
+        
+            <text id="GeneralButton_Mesurements"><![CDATA[cm]]></text>
+        
+            <text id="GeneralButton_standard_hinges"><![CDATA[Standard]]></text>
+        
+            <text id="GeneralButton_soft_closing_hinges"><![CDATA[Soft closing hinges]]></text>
+        
+            <text id="GeneralButton_soft_closing_slide_door"><![CDATA[Soft closing hinges]]></text>
+        
+        </textGroup>
+    
+        <textGroup id="StyleCopy" type="copy">
+        
+            <text id="GS_WINDOWHEADER_TEXT"><![CDATA[Start by choosing your style]]></text>
+        
+            <text id="GS_WINDOWBODY_TEXT"><![CDATA[You can then refine your choice of frame & doors and add interior fittings.]]></text>
+        
+            <text id="GS_FILTERBY_TEXT"><![CDATA[Filter by:]]></text>
+        
+            <text id="GS_YOURCOMBINATIONS_TEXT"><![CDATA[Your combinations]]></text>
+        
+            <text id="GS_STYLES_TEXT"><![CDATA[Styles]]></text>
+        
+            <text id="GS_CANTOPEN_TEXT"><![CDATA[This combination can not be opened because parts are missing.]]></text>
+        
+            <text id="GS_OPENWARNING_TEXT"><![CDATA[Products may be missing from this combination but you can still open it.]]></text>
+        
+            <text id="GS_PRICE_FROM_TEXT"><![CDATA[Price from:]]></text>
+        
+            <text id="GS_CHOOSEWIDTH_TEXT"><![CDATA[Choose width:]]></text>
+        
+            <text id="GS_CUSTOMIZE_TEXT"><![CDATA[Customize]]></text>
+        
+            <text id="GS_OPEN_TEXT"><![CDATA[Open]]></text>
+        
+            <text id="GS_DELETE_TEXT"><![CDATA[Delete]]></text>
+        
+            <text id="GS_FILTERBY_TYPE"><![CDATA[Filter by type]]></text>
+        
+            <text id="GS_FILTERBY_COLOUR"><![CDATA[Filter by colour]]></text>
+        
+            <text id="GS_ALL_TYPES"><![CDATA[All types]]></text>
+        
+            <text id="GS_SLIDING_DOORS"><![CDATA[Sliding doors]]></text>
+        
+            <text id="GS_HINGED_DOORS"><![CDATA[Hinged doors]]></text>
+        
+            <text id="GS_TAKE_A_TOUR"><![CDATA[Take a tour]]></text>
+        
+            <text id="GS_DELETE_SAVE_TOOLTIP"><![CDATA[Delete]]></text>
+        
+            <text id="GS_INFO_HINGE"><![CDATA[Hinge doors]]></text>
+        
+            <text id="GS_INFO_SLIDE"><![CDATA[Sliding doors]]></text>
+        
+            <text id="GS_INFO_BRIDGE"><![CDATA[Bridge solution]]></text>
+        
+            <text id="GS_INFO_CORNER"><![CDATA[Corner solution]]></text>
+        
+            <text id="GS_INFO_OPEN"><![CDATA[Open solution]]></text>
+        
+            <text id="GS_CHOOSE_STYLE_TEXT"><![CDATA[Choose by style]]></text>
+        
+            <text id="GS_CHOOSE_COMBINATION_TEXT"><![CDATA[Choose by combination]]></text>
+        
+            <text id="GS_WINDOWHEADER_COMBINATION_TEXT"><![CDATA[Start by choosing a combination]]></text>
+        
+            <text id="GS_WINDOWBODY_COMBINATION_TEXT"><![CDATA[You can then refine your choice and add interior fittings]]></text>
+        
+        </textGroup>
+    
+        <textGroup id="MainTopMenu" type="copy">
+        
+            <text id="MI_NEW"><![CDATA[New]]></text>
+        
+            <text id="MI_OPEN"><![CDATA[Open]]></text>
+        
+            <text id="MI_PRINT"><![CDATA[Print]]></text>
+        
+            <text id="MI_SAVE"><![CDATA[Save]]></text>
+        
+            <text id="MI_SAVE_SAVE"><![CDATA[Save]]></text>
+        
+            <text id="MI_SAVE_SAVE_AS"><![CDATA[Save as]]></text>
+        
+            <text id="MI_CHECKOUT"><![CDATA[Product list]]></text>
+        
+            <text id="MI_HELP"><![CDATA[How it works]]></text>
+        
+            <text id="PL_CONTINUE"><![CDATA[Continue]]></text>
+        
+        </textGroup>
+    
+        <textGroup id="SelectionMenu" type="copy">
+        
+            <text id="PC_DOORS_TEXT"><![CDATA[Door]]></text>
+        
+            <text id="PC_FRAMES_TEXT"><![CDATA[Frame]]></text>
+        
+            <text id="PC_INTERIORS_TEXT"><![CDATA[Interior]]></text>
+        
+            <text id="PC_DOORS_LIST"><![CDATA[Door style]]></text>
+        
+            <text id="PC_PRESETS_LIST"><![CDATA[Presets]]></text>
+        
+            <text id="PC_FRAMES_LIST"><![CDATA[Frames]]></text>
+        
+            <text id="PC_SINGLEPRODUCT_LIST"><![CDATA[Single products]]></text>
+        
+            <text id="PC_INTERIORS_LIST"><![CDATA[Single products]]></text>
+        
+            <text id="PC_COLOUR_LIST"><![CDATA[Colour]]></text>
+        
+        </textGroup>
+    
+        <textGroup id="SelectionmenuPopup" type="copy">
+        
+            <text id="TT_COLORMISSINGPRODUCTS"><![CDATA[This colour/Material is missing.]]></text>
+        
+            <text id="SM_POPUP_CH_DOORSTYLE"><![CDATA[Change door style]]></text>
+        
+            <text id="SM_POPUP_CH_FRAMESTYLE"><![CDATA[Change frame layout and colour]]></text>
+        
+            <text id="SM_POPUP_ADD_INTERIOR"><![CDATA[Add interior fittings]]></text>
+        
+            <text id="SM_POPUP_CLOSE"><![CDATA[Close menu]]></text>
+        
+            <text id="SM_POPUP_UNDO"><![CDATA[Undo]]></text>
+        
+            <text id="SM_POPUP_REDO"><![CDATA[Redo]]></text>
+        
+            <text id="SM_POPUP_ADDREPLACE_SINGLEFRAME"><![CDATA[Add or replace single frames]]></text>
+        
+            <text id="SM_POPUP_CH_FRAMELAYOUT"><![CDATA[Change frame layout]]></text>
+        
+            <text id="SM_POPUP_ADD_SINGLEPROD"><![CDATA[Add single products]]></text>
+        
+            <text id="SM_POPUP_ADD_SINGLEPRODPRESET"><![CDATA[Add a preset]]></text>
+        
+            <text id="SM_POPUP_REMOVE_SINGLEPRODPRESET"><![CDATA[Clear preset]]></text>
+        
+            <text id="SM_POPUP_TRASHICON_TEXT"><![CDATA[Remove]]></text>
+        
+            <text id="SM_POPUP_INFOICON_TEXT"><![CDATA[Information]]></text>
+        
+            <text id="IG_CLOTHES_RAIL"><![CDATA[Clothing rail]]></text>
+        
+            <text id="IG_CLOTHES_RAIL_ADDON"><![CDATA[Add-on clothes rail]]></text>
+        
+            <text id="IG_SHELF"><![CDATA[Standard shelf (2 pack)]]></text>
+        
+            <text id="IG_CORNER_SHELF"><![CDATA[Corner shelf (2 pack)]]></text>
+        
+            <text id="IG_GLASS_SHELF"><![CDATA[Add finesse with glass shelves]]></text>
+        
+            <text id="IG_SHELF_W_LEDGE"><![CDATA[Shelf with raised edge]]></text>
+        
+            <text id="IG_DRAWER"><![CDATA[Easy access drawers]]></text>
+        
+            <text id="IG_WIRE_BASKET"><![CDATA[See contents at a glance]]></text>
+        
+            <text id="IG_PLASTIC_BOX"><![CDATA[Slide out protective storage]]></text>
+        
+            <text id="IG_TROUSER_HANGER_COMPARTMENT"><![CDATA[Hangers for trousers, compartments for accessories]]></text>
+        
+            <text id="IG_TROUSER_HANGER"><![CDATA[Crease-free trousers]]></text>
+        
+            <text id="IG_SHOE_ORGANIZER"><![CDATA[Keep shoes like new]]></text>
+        
+            <text id="IG_SHOE_RACK"><![CDATA[Shoe rack for those daily pairs]]></text>
+        
+            <text id="IG_SHELF_INSERT"><![CDATA[Integrated shelf and dividers]]></text>
+        
+            <text id="IG_COMPARTMENT_STORAGE"><![CDATA[Handwoven compartments]]></text>
+        
+            <text id="IG_COMPARTMENT_STORAGE_GREY"><![CDATA[Multiple compartments]]></text>
+        
+            <text id="IG_COMPARTMENT_STORAGE_FELT"><![CDATA[Multiple compartments]]></text>
+        
+            <text id="IG_BASKET"><![CDATA[Handwoven basket (3 pack)]]></text>
+        
+            <text id="IG_BOX"><![CDATA[Drag-out compartment]]></text>
+        
+            <text id="IG_SHOE_BOX"><![CDATA[For those treasured pairs (4 pack)]]></text>
+        
+            <text id="IG_BOX_BLACK"><![CDATA[Drag-out boxes (3 pack), black ]]></text>
+        
+            <text id="IG_BOX_WHITE"><![CDATA[Drag-out boxes (3 pack), white]]></text>
+        
+            <text id="IG_MULTIUSE_HANGER"><![CDATA[For 28 different accessories]]></text>
+        
+            <text id="IG_ADDON_BOX_S6_BLACK"><![CDATA[Comparments in 3 sizes, 2 colours and hand washable]]></text>
+        
+            <text id="IG_ADDON_BOX_S6_WHITE"><![CDATA[Comparments in 3 sizes, 2 colours and hand washable]]></text>
+        
+            <text id="IG_ADDON_STICK"><![CDATA[Easy to reach high hanging clothes]]></text>
+        
+            <text id="IG_ADDON_HOOKS"><![CDATA[Hooks - attachable to shelves or door (2 pack)]]></text>
+        
+            <text id="IG_ADDON_RACK_W_HOOKS"><![CDATA[Multiple hooks to hang all hangables]]></text>
+        
+            <text id="IG_ADDON_PULLOUT_CLOTHES_RAIL"><![CDATA[Pull-out clothes rail]]></text>
+        
+            <text id="IG_BOX_44_WHITE"><![CDATA[Drag-out boxes (2 pack), white]]></text>
+        
+            <text id="IG_BOX_22_WHITE"><![CDATA[Drag-out boxes (4 pack), white]]></text>
+        
+            <text id="IG_BOX_22_BLACK"><![CDATA[Drag-out boxes (4 pack), black]]></text>
+        
+            <text id="IG_STORAGE_CASE_BLACK"><![CDATA[Storage case, black]]></text>
+        
+            <text id="IG_STORAGE_CASE_WHITE"><![CDATA[Storage case, white]]></text>
+        
+            <text id="IG_WIRE_BASKET_SHOE"><![CDATA[Wire basket for shoes]]></text>
+        
+            <text id="IG_SHELF_INSERT_FOUR"><![CDATA[Shelf insert]]></text>
+        
+            <text id="IG_SHELF_INSERT_HIGH"><![CDATA[Shelf insert]]></text>
+        
+            <text id="IG_CHEST_DRAWER"><![CDATA[Interior chest of drawers]]></text>
+        
+            <text id="IG_CLOTHES_RAIL_PULL"><![CDATA[Pull-out clothes rail]]></text>
+        
+            <text id="IG_ADDON_PULL_MULTI_35"><![CDATA[Pull-out multi-use hanger - fits 35 cm deep frames]]></text>
+        
+            <text id="IG_ADDON_PULL_MULTI_58"><![CDATA[Pull-out multi-use hanger - fits 58 cm deep frames]]></text>
+        
+            <text id="IG_SHOE_BOX_2P"><![CDATA[For those treasured pairs (2 pack)]]></text>
+        
+            <text id="IG_CLOTHES_TIDY"><![CDATA[Protects your clothes from dust]]></text>
+        
+            <text id="IG_STORAGE_7_COMPARTMENTS"><![CDATA[Storage with 7 compartments]]></text>
+        
+            <text id="IG_STORAGE_CASE"><![CDATA[Storage case]]></text>
+        
+            <text id="IG_BOX_WITH_LID"><![CDATA[Box with lid]]></text>
+        
+            <text id="IG_BOX_WITH_LID_2P"><![CDATA[Box with lid]]></text>
+        
+            <text id="IG_ADDON_BOX_SET_OF_7"><![CDATA[Compartments in 3 sizes]]></text>
+        
+            <text id="IG_PULL_MULTI_HANGER"><![CDATA[Pull-out multi-use hanger]]></text>
+        
+        </textGroup>
+    
+        <textGroup id="Color" type="copy">
+        
+            <text id="CA_WHITE_TEXT"><![CDATA[White]]></text>
+        
+            <text id="CA_WHITE_STAINED_OAK_TEXT"><![CDATA[White stained oak]]></text>
+        
+            <text id="CA_OAK_TEXT"><![CDATA[Oak]]></text>
+        
+            <text id="CA_ALUMINIUM_TEXT"><![CDATA[Aluminium]]></text>
+        
+            <text id="CA_ANTIQUE_TEXT"><![CDATA[Antique]]></text>
+        
+            <text id="CA_BIRCH_TEXT"><![CDATA[Birch]]></text>
+        
+            <text id="CA_GREY_TEXT"><![CDATA[Grey]]></text>
+        
+            <text id="CA_BLACK_BROWN_TEXT"><![CDATA[Black-brown]]></text>
+        
+            <text id="CA_GLASS_ALU_TEXT"><![CDATA[Aluminium, glass]]></text>
+        
+            <text id="CA_MIRROR_TEXT"><![CDATA[Mirror]]></text>
+        
+            <text id="CA_GLASS_WHITE_TEXT"><![CDATA[White, glass]]></text>
+        
+            <text id="CA_GLASS_BLACK_TEXT"><![CDATA[Black, glass]]></text>
+        
+            <text id="CA_BIRCH_MIRROR_GLASS_TEXT"><![CDATA[Birch, mirror, glass]]></text>
+        
+            <text id="CA_BLACK_BROWN_MIRROR_TEXT"><![CDATA[Black brown, mirror]]></text>
+        
+            <text id="CA_BLACK_BROWN_MIRROR_GLASS_TEXT"><![CDATA[Black brown, mirror, glass]]></text>
+        
+            <text id="CA_BEIGE_TEXT"><![CDATA[Beige]]></text>
+        
+            <text id="CA_FROSTED_GLASS_WHITE_TEXT"><![CDATA[Frosted glass, white]]></text>
+        
+            <text id="CA_GLASS_GREY_TEXT"><![CDATA[Glass, grey]]></text>
+        
+            <text id="CA_HIGH_GLOSS_WHITE_TEXT"><![CDATA[High gloss white]]></text>
+        
+            <text id="CA_MIRROR_GLASS_TEXT"><![CDATA[Mirror, glass]]></text>
+        
+            <text id="CA_WHITE_STAINED_OAK_MIRROR_TEXT"><![CDATA[White stained oak, mirror]]></text>
+        
+            <text id="CA_BLACK_TEXT"><![CDATA[Black]]></text>
+        
+            <text id="CA_BLACK_BROWN_FROSTED_GLASS_TEXT"><![CDATA[Black-brown, frosted glass]]></text>
+        
+            <text id="CA_GREY_ALUMINIUM_TEXT"><![CDATA[Grey, aluminium]]></text>
+        
+            <text id="CA_OAK_FROSTED_GLASS_TEXT"><![CDATA[Oak, frosted glass]]></text>
+        
+            <text id="CA_OAK_MIRROR_GLASS_TEXT"><![CDATA[Oak, mirror, glass]]></text>
+        
+            <text id="CA_WHITE_OAK_MIRROR_TEXT"><![CDATA[White, oak, mirror]]></text>
+        
+            <text id="CA_WHITE_STAIN_TEXT"><![CDATA[White stain]]></text>
+        
+            <text id="CA_GREY_BROWN_TEXT"><![CDATA[Grey-brown]]></text>
+        
+            <text id="CA_MEDIUM_BROWN_TEXT"><![CDATA[Medium brown]]></text>
+        
+            <text id="GS_MATERIAL_RED_TEXT"><![CDATA[Red]]></text>
+        
+            <text id="GS_MATERIAL_HIGH_GLOSS_GREY_TEXT"><![CDATA[High-gloss grey]]></text>
+        
+            <text id="GS_MATERIAL_GREEN_TEXT"><![CDATA[Green]]></text>
+        
+            <text id="GS_MATERIAL_TURQUOISE_TEXT"><![CDATA[Turquoise]]></text>
+        
+        </textGroup>
+    
+        <textGroup id="StageDescriptions" type="copy">
+        
+            <text id="SD_Stage1"><![CDATA[Use the bottom menu to refine your style]]></text>
+        
+            <text id="SD_Stage2"><![CDATA[Drag & drop to change door style]]></text>
+        
+            <text id="SD_Stage3"><![CDATA[Change frame layout and colour]]></text>
+        
+            <text id="SD_Stage4"><![CDATA[Change colour and drag & drop frame]]></text>
+        
+            <text id="SD_Stage5"><![CDATA[Change frame layout and color]]></text>
+        
+            <text id="SD_Stage6"><![CDATA[Choose an interior preset and refine by adding single products]]></text>
+        
+            <text id="SD_Stage7"><![CDATA[Drag & drop to add interior fittings ]]></text>
+        
+        </textGroup>
+    
+        <textGroup id="ProductList" type="copy">
+        
+            <text id="PL_WINDOWHEADER_TEXT"><![CDATA[Product list overview]]></text>
+        
+            <text id="PL_PRODUCTPICTURE_TEXT"><![CDATA[Product]]></text>
+        
+            <text id="PL_DESCRIPTION_TEXT"><![CDATA[Description]]></text>
+        
+            <text id="PL_COUNT_TEXT"><![CDATA[Quantity]]></text>
+        
+            <text id="PL_PRICE_TEXT"><![CDATA[Price]]></text>
+        
+            <text id="PL_PRODUCT_TEXT"><![CDATA[Article number]]></text>
+        
+            <text id="PL_TOTALPRICE_TEXT"><![CDATA[Total price]]></text>
+        
+            <text id="PL_TOTALSUM_TEXT"><![CDATA[Total sum]]></text>
+        
+            <text id="PL_FAMILYSUM_TEXT"><![CDATA[IKEA FAMILY price]]></text>
+        
+            <text id="PL_TOTALFAMILYSUM_TEXT"><![CDATA[IKEA FAMILY price]]></text>
+        
+            <text id="PL_ADDTOSHOPPINGLIST_TEXT"><![CDATA[Add to shopping list]]></text>
+        
+            <text id="PL_ALSOAD_TEXT"><![CDATA[You also might like to add some of these]]></text>
+        
+            <text id="PL_ADDONSHEADER_TEXT"><![CDATA[You also might like to add some of these]]></text>
+        
+            <text id="PL_ADDONSLINK_TEXT"><![CDATA[See add-ons]]></text>
+        
+            <text id="PL_ADDONADDLINK_TEXT"><![CDATA[Add to product list]]></text>
+        
+            <text id="PL_HINGES_INCLUDED_TEXT"><![CDATA[Hinges are included]]></text>
+        
+        </textGroup>
+    
+        <textGroup id="FinalView" type="copy">
+        
+            <text id="FV_FINAL_VIEW_HEADER"><![CDATA[How do you want to shop?]]></text>
+        
+            <text id="FV_FINAL_VIEW_HEADERBODY_TEXT"><![CDATA[Text Main]]></text>
+        
+            <text id="FV_FINAL_VIEW_PRINT_HEADER_TEXT"><![CDATA[Print]]></text>
+        
+            <text id="FV_FINAL_VIEW_PRINT_BODY_TEXT"><![CDATA[Print out your finished PAX design and list of chosen products. Bring it to the store and contact our staff for further assistance.]]></text>
+        
+            <text id="FV_FINAL_VIEW_ADDTOSHOPPINGLIST_HEADER_TEXT"><![CDATA[Add to shopping list]]></text>
+        
+            <text id="FV_FINAL_VIEW_ADDTOSHOPPINGLIST_BODY_TEXT"><![CDATA[Here you can create a shopping list with - not only your chosen PAX solution - but products from all the different IKEA departments. You can save this list onto our website which you can access at the store. You can also send it as an e-mail or print it out and take it with you.]]></text>
+        
+            <text id="FV_FINAL_VIEW_BUYONLINE_HEADER_TEXT"><![CDATA[Buy online]]></text>
+        
+            <text id="FV_FINAL_VIEW_BUYONLINE_BODY_TEXT"><![CDATA[By your PAX wardrobe online and get it delivered to your door.]]></text>
+        
+            <text id="FV_FINAL_VIEW_HOMESHOPPING_HEADER_TEXT"><![CDATA[Home shopping]]></text>
+        
+            <text id="FV_FINAL_VIEW_PRINT_BUTTON_TEXT"><![CDATA[Print]]></text>
+        
+            <text id="FV_FINAL_VIEW_ADDTOSHOPPINGLIST_BUTTON_TEXT"><![CDATA[Add to shopping list]]></text>
+        
+            <text id="FV_FINAL_VIEW_BUYONLINE_BUTTON_TEXT"><![CDATA[Buy online]]></text>
+        
+            <text id="FV_FINAL_VIEW_HOMESHOPPING_BUTTON_TEXT"><![CDATA[Home shop]]></text>
+        
+            <text id="FV_FINAL_VIEW_HOMESHOPPING_BODY_TEXT"><![CDATA[ ]]></text>
+        
+            <text id="FV_FINAL_VIEW_ADDSHOPPINGLIST_CONFIRM"><![CDATA[Products added to shoppinglist]]></text>
+        
+            <text id="FV_FINAL_VIEW_KIOSK_CONTINUE_Q"><![CDATA[Do you want to continue working?]]></text>
+        
+            <text id="FV_FINAL_VIEW_KIOSK_Q_BTN_NO"><![CDATA[No]]></text>
+        
+            <text id="FV_FINAL_VIEW_KIOSK_Q_BTN_YES"><![CDATA[Yes]]></text>
+        
+            <text id="FV_FINAL_VIEW_GOTO_SHOPPINGLIST_LINK"><![CDATA[Go to my shopping list]]></text>
+        
+        </textGroup>
+    
+        <textGroup id="ScenePopupWindows" type="copy">
+        
+            <text id="SP_SAVEAS_HEADER"><![CDATA[Save your Pax design as:]]></text>
+        
+            <text id="SP_SAVEAS_NAME_HEAD"><![CDATA[Name:]]></text>
+        
+            <text id="SP_SAVEAS_DESC_HEAD"><![CDATA[Description]]></text>
+        
+            <text id="SP_SAVEAS_DESC_DEFAULT"><![CDATA[Description Text]]></text>
+        
+            <text id="SP_SAVEAS_NOTE"><![CDATA[Note: Your files will be saved locally on this computer through your web 	browser. If you clear your browser memory you will lose all saved data.]]></text>
+        
+            <text id="SP_SAVEAS_LOAD"><![CDATA[Saving]]></text>
+        
+            <text id="SP_SAVEAS_BTN_CANCEL"><![CDATA[Cancel]]></text>
+        
+            <text id="SP_SAVEAS_BTN_SAVE"><![CDATA[Save as]]></text>
+        
+            <text id="SP_OVERWRITE_HEADER"><![CDATA[Overwrite]]></text>
+        
+            <text id="SP_OVERWRITE_BTN_OVERWRITE"><![CDATA[Overwrite]]></text>
+        
+            <text id="SP_OVERWRITE_BTN_CANCEL"><![CDATA[Cancel]]></text>
+        
+            <text id="SP_OPEN_HEADER"><![CDATA[Choose from your saved designs:]]></text>
+        
+            <text id="SP_OPEN_SAVEDTAG"><![CDATA[Saved]]></text>
+        
+            <text id="SP_OPEN_NOTE"><![CDATA[Note: This will delete the combination you have planned on scene]]></text>
+        
+            <text id="SP_OPEN_BTN_CANCEL"><![CDATA[Cancel]]></text>
+        
+            <text id="SP_PRINT_HEADER"><![CDATA[What do you want to print:]]></text>
+        
+            <text id="SP_PRINT_IMAGE"><![CDATA[Print image]]></text>
+        
+            <text id="SP_PRINT_SHOOPINGLIST"><![CDATA[Print product list]]></text>
+        
+            <text id="SP_PRINT_IMAGE_SHOOPINGLIST"><![CDATA[Print image & product list]]></text>
+        
+            <text id="SP_PRINT_BTN_CANCEL"><![CDATA[Cancel]]></text>
+        
+            <text id="SP_NEW_TEXT"><![CDATA[Save your PAX wardrobe before creating a new one?]]></text>
+        
+            <text id="SP_NEW_BTN_CREATE"><![CDATA[Create new]]></text>
+        
+            <text id="SP_NEW_BTN_CANCEL"><![CDATA[Cancel]]></text>
+        
+            <text id="SP_NEW_BTN_SAVE"><![CDATA[Save]]></text>
+        
+            <text id="CANT_DROP_TEXT"><![CDATA[Occupied holes]]></text>
+        
+        </textGroup>
+    
+        <textGroup id="helpCopy" type="copy">
+        
+            <text id="FG_FRAME_100"><![CDATA[doesn't exist]]></text>
+        
+            <text id="FG_FRAME_75"><![CDATA[doesn't exist]]></text>
+        
+            <text id="FG_FRAME_50"><![CDATA[doesn't exist]]></text>
+        
+            <text id="FG_FRAME_50_70"><![CDATA[doesn't exist]]></text>
+        
+            <text id="FG_FRAME_100_70"><![CDATA[doesn't exist]]></text>
+        
+            <text id="FG_FRAME_CORNER"><![CDATA[doesn't exist]]></text>
+        
+            <text id="SP_TAKE_A_TOUR_HEADER"><![CDATA[How it works]]></text>
+        
+        </textGroup>
+    
+        <textGroup id="SprStyleNames" type="copy">
+        
+            <text id="SPR_GALLERY_01"><![CDATA[Have it your own way]]></text>
+        
+            <text id="SPR_GALLERY_DESC_01"><![CDATA[PAX BALLSTAD]]></text>
+        
+            <text id="SPR_GALLERY_02"><![CDATA[Domestic harmony]]></text>
+        
+            <text id="SPR_GALLERY_DESC_02"><![CDATA[PAX NEXUS]]></text>
+        
+            <text id="SPR_GALLERY_03"><![CDATA[Your style, our ingenuity]]></text>
+        
+            <text id="SPR_GALLERY_DESC_03"><![CDATA[PAX FARDAL]]></text>
+        
+            <text id="SPR_GALLERY_04"><![CDATA[Successful slimming]]></text>
+        
+            <text id="SPR_GALLERY_DESC_04"><![CDATA[PAX NEXUS]]></text>
+        
+            <text id="SPR_GALLERY_05"><![CDATA[Your guarantee of happiness]]></text>
+        
+            <text id="SPR_GALLERY_DESC_05"><![CDATA[PAX HEMNES]]></text>
+        
+            <text id="SPR_GALLERY_06"><![CDATA[The wonders of wood]]></text>
+        
+            <text id="SPR_GALLERY_DESC_06"><![CDATA[PAX HEMNES]]></text>
+        
+            <text id="SPR_GALLERY_07"><![CDATA[Slender means]]></text>
+        
+            <text id="SPR_GALLERY_DESC_07"><![CDATA[PAX MALM]]></text>
+        
+            <text id="SPR_GALLERY_08"><![CDATA[Clothes horse or hobby horse?]]></text>
+        
+            <text id="SPR_GALLERY_DESC_08"><![CDATA[PAX TONNES]]></text>
+        
+            <text id="SPR_GALLERY_09"><![CDATA[Space suits]]></text>
+        
+            <text id="SPR_GALLERY_DESC_09"><![CDATA[PAX MALM]]></text>
+        
+            <text id="SPR_GALLERY_10"><![CDATA[They'll look smart, and so will you]]></text>
+        
+            <text id="SPR_GALLERY_DESC_10"><![CDATA[PAX MALM]]></text>
+        
+            <text id="SPR_GALLERY_11"><![CDATA[Do your own thing]]></text>
+        
+            <text id="SPR_GALLERY_DESC_11"><![CDATA[PAX UGGDAL]]></text>
+        
+            <text id="SPR_GALLERY_12"><![CDATA[It's all about you]]></text>
+        
+            <text id="SPR_GALLERY_DESC_12"><![CDATA[PAX MALM]]></text>
+        
+            <text id="SPR_GALLERY_13"><![CDATA[Personal effects]]></text>
+        
+            <text id="SPR_GALLERY_DESC_13"><![CDATA[PAX LYNGDAL]]></text>
+        
+            <text id="SPR_GALLERY_14"><![CDATA[Personal goals]]></text>
+        
+            <text id="SPR_GALLERY_DESC_14"><![CDATA[PAX MALM]]></text>
+        
+        </textGroup>
+    
+    
+        <textGroup id="StyleNames" type="style">
+        
+            <text id="GS_STYLENAME1_TEXT"><![CDATA[PAX ÅNSTAD]]></text>
+        
+            <text id="GS_STYLENAME2_TEXT"><![CDATA[PAX LYNGDAL]]></text>
+        
+            <text id="GS_STYLENAME3_TEXT"><![CDATA[PAX LYNGDAL]]></text>
+        
+            <text id="GS_STYLENAME4_TEXT"><![CDATA[PAX UGGDAL]]></text>
+        
+            <text id="GS_STYLENAME5_TEXT"><![CDATA[PAX TONNES]]></text>
+        
+            <text id="GS_STYLENAME6_TEXT"><![CDATA[PAX BIRKELAND]]></text>
+        
+            <text id="GS_STYLENAME7_TEXT"><![CDATA[PAX MALM]]></text>
+        
+            <text id="GS_STYLENAME8_TEXT"><![CDATA[PAX MALM]]></text>
+        
+            <text id="GS_STYLENAME9_TEXT"><![CDATA[PAX MALM]]></text>
+        
+            <text id="GS_STYLENAME10_TEXT"><![CDATA[PAX MALM]]></text>
+        
+            <text id="GS_STYLENAME11_TEXT"><![CDATA[PAX MALM]]></text>
+        
+            <text id="GS_STYLENAME12_TEXT"><![CDATA[PAX MALM]]></text>
+        
+            <text id="GS_STYLENAME13_TEXT"><![CDATA[PAX BIRKELAND]]></text>
+        
+            <text id="GS_STYLENAME14_TEXT"><![CDATA[PAX BIRKELAND]]></text>
+        
+            <text id="GS_STYLENAME15_TEXT"><![CDATA[PAX BIRKELAND]]></text>
+        
+            <text id="GS_STYLENAME16_TEXT"><![CDATA[PAX FARDAL]]></text>
+        
+            <text id="GS_STYLENAME17_TEXT"><![CDATA[PAX BERGSBO]]></text>
+        
+            <text id="GS_STYLENAME18_TEXT"><![CDATA[PAX BERGSBO]]></text>
+        
+            <text id="GS_STYLENAME19_TEXT"><![CDATA[PAX DRAMMEN]]></text>
+        
+            <text id="GS_STYLENAME20_TEXT"><![CDATA[PAX VIKEDAL]]></text>
+        
+            <text id="GS_STYLENAME21_TEXT"><![CDATA[PAX FEVIK]]></text>
+        
+            <text id="GS_STYLENAME22_TEXT"><![CDATA[PAX FEVIK]]></text>
+        
+            <text id="GS_STYLENAME23_TEXT"><![CDATA[PAX HEMNES]]></text>
+        
+            <text id="GS_STYLENAME24_TEXT"><![CDATA[PAX AURLAND]]></text>
+        
+            <text id="GS_STYLENAME25_TEXT"><![CDATA[PAX BALLSTAD]]></text>
+        
+            <text id="GS_STYLENAME26_TEXT"><![CDATA[PAX NEXUS]]></text>
+        
+            <text id="GS_STYLENAME27_TEXT"><![CDATA[PAX NEXUS]]></text>
+        
+            <text id="GS_STYLENAME28_TEXT"><![CDATA[PAX NEXUS]]></text>
+        
+            <text id="GS_STYLENAME29_TEXT"><![CDATA[PAX NEXUS]]></text>
+        
+            <text id="GS_STYLENAME30_TEXT"><![CDATA[PAX NEXUS]]></text>
+        
+            <text id="GS_STYLENAME31_TEXT"><![CDATA[PAX ULNES]]></text>
+        
+            <text id="GS_STYLENAME32_TEXT"><![CDATA[PAX MALM]]></text>
+        
+            <text id="GS_STYLENAME33_TEXT"><![CDATA[PAX MALM]]></text>
+        
+            <text id="GS_STYLENAME34_TEXT"><![CDATA[PAX MALM]]></text>
+        
+            <text id="GS_STYLENAME35_TEXT"><![CDATA[PAX MALM]]></text>
+        
+            <text id="GS_STYLENAME36_TEXT"><![CDATA[PAX BIRKELAND]]></text>
+        
+            <text id="GS_STYLENAME37_TEXT"><![CDATA[PAX BALLSTAD]]></text>
+        
+            <text id="GS_STYLENAME38_TEXT"><![CDATA[PAX NEXUS]]></text>
+        
+            <text id="GS_STYLENAME39_TEXT"><![CDATA[PAX NEXUS]]></text>
+        
+            <text id="GS_STYLENAME40_TEXT"><![CDATA[PAX BIRKELAND]]></text>
+        
+            <text id="GS_STYLENAME41_TEXT"><![CDATA[PAX BIRKELAND]]></text>
+        
+            <text id="GS_STYLENAME42_TEXT"><![CDATA[PAX FARDAL]]></text>
+        
+            <text id="GS_STYLENAME43_TEXT"><![CDATA[PAX BERGSBO]]></text>
+        
+            <text id="GS_STYLENAME44_TEXT"><![CDATA[PAX BERGSBO]]></text>
+        
+            <text id="GS_STYLENAME45_TEXT"><![CDATA[PAX DRAMMEN]]></text>
+        
+            <text id="GS_STYLENAME46_TEXT"><![CDATA[PAX VIKEDAL]]></text>
+        
+            <text id="GS_STYLENAME47_TEXT"><![CDATA[PAX FEVIK]]></text>
+        
+            <text id="GS_STYLENAME48_TEXT"><![CDATA[PAX AURLAND]]></text>
+        
+            <text id="GS_STYLENAME49_TEXT"><![CDATA[PAX BALLSTAD]]></text>
+        
+            <text id="GS_STYLENAME50_TEXT"><![CDATA[PAX NEXUS]]></text>
+        
+            <text id="GS_STYLENAME51_TEXT"><![CDATA[PAX NEXUS]]></text>
+        
+            <text id="GS_STYLENAME52_TEXT"><![CDATA[PAX BIRKELAND]]></text>
+        
+            <text id="GS_STYLENAME53_TEXT"><![CDATA[PAX white]]></text>
+        
+            <text id="GS_STYLENAME54_TEXT"><![CDATA[PAX oak]]></text>
+        
+            <text id="GS_STYLENAME55_TEXT"><![CDATA[PAX black-brown]]></text>
+        
+            <text id="GS_STYLENAME56_TEXT"><![CDATA[PAX antique]]></text>
+        
+            <text id="GS_STYLENAME57_TEXT"><![CDATA[PAX birch]]></text>
+        
+            <text id="GS_STYLENAME58_TEXT"><![CDATA[PAX grey]]></text>
+        
+            <text id="GS_STYLENAME59_TEXT"><![CDATA[PAX white stained oak]]></text>
+        
+            <text id="GS_STYLENAME60_TEXT"><![CDATA[PAX medium brown]]></text>
+        
+            <text id="GS_STYLENAME61_TEXT"><![CDATA[PAX HASVIK]]></text>
+        
+            <text id="GS_STYLENAME62_TEXT"><![CDATA[PAX AULI]]></text>
+        
+            <text id="GS_STYLENAME63_TEXT"><![CDATA[PAX STORÅS]]></text>
+        
+            <text id="GS_STYLENAME_EMPTY_TEXT"><![CDATA[Empty scene]]></text>
+        
+        </textGroup>
+    
+        <textGroup id="StyleTypes" type="style">
+        
+            <text id="GS_TYPE_ALL_TEXT"><![CDATA[All types]]></text>
+        
+            <text id="GS_TYPE_HINGE_TEXT"><![CDATA[Hinge doors]]></text>
+        
+            <text id="GS_TYPE_SLIDE_TEXT"><![CDATA[Sliding doors]]></text>
+        
+            <text id="GS_TYPE_CORNER_TEXT"><![CDATA[Corner solution]]></text>
+        
+            <text id="GS_TYPE_BRIDGE_TEXT"><![CDATA[Bridge solution]]></text>
+        
+            <text id="GS_TYPE_OPEN_TEXT"><![CDATA[Open solution]]></text>
+        
+        </textGroup>
+    
+        <textGroup id="StyleMaterial" type="style">
+        
+            <text id="GS_MATERIAL_ALL_TEXT"><![CDATA[All styles]]></text>
+        
+            <text id="GS_MATERIAL_OAK_TEXT"><![CDATA[Oak]]></text>
+        
+            <text id="GS_MATERIAL_ANTIQUE_TEXT"><![CDATA[Antique]]></text>
+        
+            <text id="GS_MATERIAL_BIRCH_TEXT"><![CDATA[Birch]]></text>
+        
+            <text id="GS_MATERIAL_BLACK_BROWN_TEXT"><![CDATA[Black-brown]]></text>
+        
+            <text id="GS_MATERIAL_WHITE_TEXT"><![CDATA[White]]></text>
+        
+            <text id="GS_MATERIAL_ALUMINIUM_TEXT"><![CDATA[Aluminium]]></text>
+        
+            <text id="GS_MATERIAL_GREY_TEXT"><![CDATA[Grey]]></text>
+        
+            <text id="GS_MATERIAL_WHITE_STAINED_OAK_TEXT"><![CDATA[White stained oak]]></text>
+        
+            <text id="GS_MATERIAL_MIRROR_TEXT"><![CDATA[Mirror]]></text>
+        
+            <text id="GS_MATERIAL_HIGH_GLOSS_WHITE_TEXT"><![CDATA[High-gloss white]]></text>
+        
+            <text id="GS_MATERIAL_GLASS_TEXT"><![CDATA[Glass]]></text>
+        
+            <text id="GS_MATERIAL_MEDIUM_BROWN_TEXT"><![CDATA[Medium brown]]></text>
+        
+        </textGroup>
+    
+    </plannerLocale>
+    <misc>
+    
+        <constants>
+        
+            <constant id="local_fv_enableaddtoshoppinglist" value="true" />
+        
+            <constant id="local_fv_enablebuyonline" value="false" />
+        
+            <constant id="local_fv_enablehomeshopping" value="false" />
+        
+            <constant id="local_fv_enableprint" value="true" />
+        
+            <constant id="local_frame_sizes" value="2010" />
+        
+            <constant id="default_frame_depth" value="580" />
+        
+            <constant id="local_enable_soft_closing_doors" value="true" />
+        
+            <constant id="local_enable_spr_list" value="false" />
+        
+        </constants>
+    
+        <currency>
+            <currencyPosition>before</currencyPosition>
+            <currencySymbol>£</currencySymbol>
+            <symbolSpacing>true</symbolSpacing>
+            <currencyDecimalsEnabled>true</currencyDecimalsEnabled>
+            <decimalSeparator><![CDATA[.]]></decimalSeparator>
+            <numberOfDecimals>2</numberOfDecimals>
+            <thousandSeparatorEnabled>false</thousandSeparatorEnabled>
+            <thousandSeparator><![CDATA[ ]]></thousandSeparator>
+        </currency>
+        <lang>en_GB</lang>
+        <imperial><![CDATA[false]]></imperial>
+        <market></market>
+        <webservices>
+            <webservice id="iows">
+                <url>http://www.ikea.com/gb/en/catalog/products/</url> 
+                <parameters>
+                    <parameter id="version">v1</parameter>
+                    <parameter id="type">xml</parameter>
+                    <parameter id="dataset">normal,prices,allImages,parentCategories,attributes</parameter>
+                </parameters> 
+            </webservice>    
+            <webservice id="shoppinglist">
+                <url>http://www.ikea.com/webapp/wcs/stores/servlet/</url>
+                <parameters>
+                    <parameter id="add">IrwWSInterestItemAdd</parameter>
+                    <parameter id="delete">IrwWSInterestItemDelete</parameter>
+                    <parameter id="get">IrwWSGetInterestList</parameter>
+                    <parameter id="display">InterestItemDisplay</parameter>
+                    <parameter id="print">IrwPrintShoppingList</parameter>
+                    <parameter id="printKiosk">IrwWSKioskPrintShoppingList</parameter>
+                    <parameter id="storeId">7</parameter>
+                    <parameter id="langId">-20</parameter>
+                </parameters>
+            </webservice>
+        </webservices>
+        <irwstats func="irwStatTrackRia" active="1" trackversion="2" assettype="other">PAX</irwstats>
+    </misc>
+    <movies>
+    
+        <movie type="how it works">
+            <chapter asset="PAX1" id="1">
+                <headline><![CDATA[How it works]]></headline>
+                
+                
+                <tip id="2">
+                    <text><![CDATA[Start by choosing a style that suits you.]]></text>
+                    <time><![CDATA[1]]></time>
+                    <duration><![CDATA[4]]></duration>
+                    <x><![CDATA[136]]></x>
+                    <y><![CDATA[286]]></y>
+                    <width><![CDATA[160]]></width>
+                    <type><![CDATA[bubbleBottomLeft]]></type>
+                </tip>
+                
+                <tip id="3">
+                    <text><![CDATA[Choose your desired width.]]></text>
+                    <time><![CDATA[13]]></time>
+                    <duration><![CDATA[6]]></duration>
+                    <x><![CDATA[156]]></x>
+                    <y><![CDATA[140]]></y>
+                    <width><![CDATA[180]]></width>
+                    <type><![CDATA[bubbleBottomLeft]]></type>
+                </tip>
+                
+                <tip id="4">
+                    <text><![CDATA[Now you can refine your style from the bottom menu.]]></text>
+                    <time><![CDATA[24]]></time>
+                    <duration><![CDATA[4]]></duration>
+                    <x><![CDATA[203]]></x>
+                    <y><![CDATA[208]]></y>
+                    <width><![CDATA[220]]></width>
+                    <type><![CDATA[bubbleBottomLeft]]></type>
+                </tip>
+                
+                <tip id="5">
+                    <text><![CDATA[Your style may have more door types...]]></text>
+                    <time><![CDATA[30]]></time>
+                    <duration><![CDATA[4]]></duration>
+                    <x><![CDATA[176]]></x>
+                    <y><![CDATA[190]]></y>
+                    <width><![CDATA[150]]></width>
+                    <type><![CDATA[bubbleBottomLeft]]></type>
+                </tip>
+                
+                <tip id="6">
+                    <text><![CDATA[...several frame layouts...]]></text>
+                    <time><![CDATA[42]]></time>
+                    <duration><![CDATA[5]]></duration>
+                    <x><![CDATA[224]]></x>
+                    <y><![CDATA[200]]></y>
+                    <width><![CDATA[150]]></width>
+                    <type><![CDATA[bubbleBottomLeft]]></type>
+                </tip>
+                
+                <tip id="7">
+                    <text><![CDATA[...and interior presets.]]></text>
+                    <time><![CDATA[60]]></time>
+                    <duration><![CDATA[5]]></duration>
+                    <x><![CDATA[120]]></x>
+                    <y><![CDATA[190]]></y>
+                    <width><![CDATA[150]]></width>
+                    <type><![CDATA[bubbleBottomRight]]></type>
+                </tip>
+                
+                <tip id="8">
+                    <text><![CDATA[And you can personalise your wardrobe...]]></text>
+                    <time><![CDATA[69]]></time>
+                    <duration><![CDATA[5]]></duration>
+                    <x><![CDATA[265]]></x>
+                    <y><![CDATA[190]]></y>
+                    <width><![CDATA[160]]></width>
+                    <type><![CDATA[bubbleBottomLeft]]></type>
+                </tip>
+                
+                <tip id="9">
+                    <text><![CDATA[...by adding interior products that suit your needs.]]></text>
+                    <time><![CDATA[78]]></time>
+                    <duration><![CDATA[4]]></duration>
+                    <x><![CDATA[172]]></x>
+                    <y><![CDATA[190]]></y>
+                    <width><![CDATA[150]]></width>
+                    <type><![CDATA[bubbleBottomLeft]]></type>
+                </tip>
+                
+                <tip id="10">
+                    <text><![CDATA[And don’t worry, you can easily undo things and save at any point.]]></text>
+                    <time><![CDATA[98]]></time>
+                    <duration><![CDATA[6]]></duration>
+                    <x><![CDATA[280]]></x>
+                    <y><![CDATA[190]]></y>
+                    <width><![CDATA[180]]></width>
+                    <type><![CDATA[bubbleBottomRight]]></type>
+                </tip>
+                
+                <tip id="11">
+                    <text><![CDATA[O.K. You’re now ready to get started and create your own. Have fun!]]></text>
+                    <time><![CDATA[112]]></time>
+                    <duration><![CDATA[4]]></duration>
+                    <x><![CDATA[334]]></x>
+                    <y><![CDATA[223]]></y>
+                    <width><![CDATA[150]]></width>
+                    <type><![CDATA[bubbleBottomRight]]></type>
+                </tip>
+                
+            </chapter>
+        </movie>
+    
+    </movies>	
+</local_data>
+
+
+
+
+

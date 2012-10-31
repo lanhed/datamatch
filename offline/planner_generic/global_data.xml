@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<global_data xsi:noNamespaceSchemaLocation="schema/global_data.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<irwstats func="irwStatTrackRia" active="1" trackversion="2" assettype="other" />
+
+	<constants>
+    	<constant id="debug_text_flag" value="false"/>
+    	<constant id="familyColor" value="0xff7700"/>
+    	<constant id="sceneFloorHeight" value="300"/>
+    	<constant id="global_fv_enableaddtoshoppinglist" value="true"/>
+    	<constant id="global_fv_enablebuyonline" value="false"/>
+    	<constant id="global_fv_enablehomeshopping" value="false"/>
+    	<constant id="global_fv_enableprint" value="true"/>
+    	<constant id="global_return_to_view_timeout" value="2"/>
+    	<constant id="global_enable_stockAvailability_print" value="false"/>
+	</constants>
+
+	<plannerLocale>
+		<textGroup id="General" type="copy">
+			<text id="TEST" />
+			<text id="GeneralButton_ok" />
+			<text id="GeneralButton_cancel" />
+			<text id="GeneralButton_done" />
+			<text id="GeneralButton_yes" />
+			<text id="GeneralButton_no" />
+			<text id="GeneralButton_save" />
+			<text id="GeneralButton_undo" />
+			<text id="GeneralButton_redo" />
+			<text id="GeneralButton_continue" />
+			<text id="GeneralButton_new" />
+			<text id="GeneralButton_back" />
+		</textGroup>
+		<textGroup id="ProductList" type="copy">
+			<text id="KL_HEADER_TEXT" />
+			<text id="KL_STOCKINFO_TEXT" />
+			<text id="KL_SHELF_TEXT" />
+			<text id="KL_BOX_TEXT" />
+			<text id="KL_CONTACT_STAFF" />
+			<text id="KL_NOTATSTORE_TEXT" />
+			<text id="KL_STORE_TEXT" />
+			<text id="KL_ARTICLE_NR" />
+			<text id="KL_QUANTITY" />
+			<text id="KL_WEIGHT_FORMAT" />
+			<text id="KL_WEIGHT" />
+			<text id="KL_TOTAL_WEIGHT" />
+			<text id="KL_PACKAGES" />
+			<text id="PL_WINDOWHEADER_TEXT" />
+			<text id="PL_PRODUCTPICTURE_TEXT" />
+			<text id="PL_DESCRIPTION_TEXT" />
+			<text id="PL_COUNT_TEXT" />
+			<text id="PL_PRICE_TEXT" />
+			<text id="PL_PRODUCT_TEXT" />
+			<text id="PL_TOTALPRICE_TEXT" />
+			<text id="PL_TOTALSUM_TEXT" />
+			<text id="PL_FAMILYSUM_TEXT" />
+			<text id="PL_TOTALFAMILYSUM_TEXT" />
+			<text id="PL_ADDTOSHOPPINGLIST_TEXT" />
+			<text id="PL_ALSOAD_TEXT" />
+			<text id="PL_ADDONSHEADER_TEXT" />
+			<text id="PL_ADDONSLINK_TEXT" />
+			<text id="PL_ADDONADDLINK_TEXT" />
+			<text id="PL_CONTINUE" />
+		</textGroup>
+		<textGroup id="FinalView">
+			<text id="FV_FINAL_VIEW_GOTO_SHOPPINGLIST_LINK" />
+			<text id="FV_FINAL_VIEW_ADDSHOPPINGLIST_CONFIRM" />
+			<text id="FV_FINAL_VIEW_KIOSK_CONTINUE_Q" />
+			<text id="FV_FINAL_VIEW_KIOSK_Q_BTN_NO" />
+			<text id="FV_FINAL_VIEW_KIOSK_Q_BTN_YES" />
+		</textGroup>
+	</plannerLocale>
+
+</global_data>

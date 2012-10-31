@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<local_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="local_data.xsd">
+	<plannerLocale>
+	
+		<textGroup id="General" type="copy">
+		
+			<text id="GeneralButton_ok"><![CDATA[Ok]]></text>
+		
+			<text id="GeneralButton_cancel"><![CDATA[Cancel]]></text>
+		
+			<text id="GeneralButton_done"><![CDATA[Done]]></text>
+		
+			<text id="GeneralButton_yes"><![CDATA[Yes]]></text>
+		
+			<text id="GeneralButton_no"><![CDATA[No]]></text>
+		
+			<text id="GeneralButton_save"><![CDATA[Save]]></text>
+		
+			<text id="GeneralButton_undo"><![CDATA[Undo]]></text>
+		
+			<text id="GeneralButton_redo"><![CDATA[Redo]]></text>
+		
+			<text id="GeneralButton_continue"><![CDATA[Continue]]></text>
+		
+			<text id="GeneralButton_new"><![CDATA[Create new]]></text>
+		
+			<text id="GeneralButton_back"><![CDATA[Back]]></text>
+		
+			<text id="GeneralButton_print"><![CDATA[Print]]></text>
+		
+			<text id="GeneralText_information"><![CDATA[Information]]></text>
+		
+			<text id="GeneralText_nospaceleft"><![CDATA[No space left]]></text>
+		
+		</textGroup>
+	
+		<textGroup id="ProductList" type="copy">
+		
+			<text id="KL_HEADER_TEXT"><![CDATA[Shopping list]]></text>
+		
+			<text id="KL_STOCKINFO_TEXT"><![CDATA[You will find this product here]]></text>
+		
+			<text id="KL_SHELF_TEXT"><![CDATA[Shelf]]></text>
+		
+			<text id="KL_BOX_TEXT"><![CDATA[Box]]></text>
+		
+			<text id="KL_CONTACT_STAFF"><![CDATA[Contact staff for purchase and information.]]></text>
+		
+			<text id="KL_NOTATSTORE_TEXT"><![CDATA[This product is not available at this store]]></text>
+		
+			<text id="KL_STORE_TEXT"><![CDATA[This shopping list is valid at]]></text>
+		
+			<text id="KL_ARTICLE_NR"><![CDATA[Article number: ]]></text>
+		
+			<text id="KL_QUANTITY"><![CDATA[Quantity: ]]></text>
+		
+			<text id="KL_WEIGHT_FORMAT"><![CDATA[kg]]></text>
+		
+			<text id="KL_WEIGHT"><![CDATA[Weight]]></text>
+		
+			<text id="KL_TOTAL_WEIGHT"><![CDATA[Total weight / Total articles:]]></text>
+		
+			<text id="KL_PACKAGES"><![CDATA[Packages]]></text>
+		
+			<text id="KL_NOSTOCK_TEXT"><![CDATA[This product is out of stock at this store.]]></text>
+		
+		</textGroup>
+	
+	
+	</plannerLocale>
+	<misc>
+	
+		<constants>
+		
+			<constant id="local_fv_enableaddtoshoppinglist " value="true" />
+		
+			<constant id="local_fv_enablebuyonline " value="false" />
+		
+			<constant id="local_fv_enablehomeshopping " value="false" />
+		
+			<constant id="local_fv_enableprint" value="true" />
+		
+			<constant id="dateMask" value="YY-MM-DD" />
+		
+			<constant id="show_weight_information" value="false" />
+		
+		</constants>
+	
+		<currency>
+			<currencyPosition>before</currencyPosition>
+			<currencySymbol>£</currencySymbol>
+			<symbolSpacing>false</symbolSpacing>
+			<currencyDecimalsEnabled>true</currencyDecimalsEnabled>
+			<decimalSeparator><![CDATA[.]]></decimalSeparator>
+			<numberOfDecimals>2</numberOfDecimals>
+			<thousandSeparatorEnabled>true</thousandSeparatorEnabled>
+			<thousandSeparator><![CDATA[,]]></thousandSeparator>
+		</currency>  
+		<lang>en_GB</lang>
+		<imperial><![CDATA[false]]></imperial>
+		<market></market>
+		<webservices>
+			<webservice id="iows">
+				<url>http://www.ikea.com/gb/en/catalog/products/</url> 
+				<parameters>
+					<parameter id="version">v1</parameter>
+					<parameter id="type">xml</parameter>
+					<parameter id="dataset">normal,prices,allImages,parentCategories,attributes</parameter>
+				</parameters> 
+			</webservice>    
+			<webservice id="shoppinglist">
+				<url>http://www.ikea.com/webapp/wcs/stores/servlet/</url>
+				<parameters>
+					<parameter id="add">IrwWSInterestItemAdd</parameter>
+					<parameter id="delete">IrwWSInterestItemDelete</parameter>
+					<parameter id="get">IrwWSGetInterestList</parameter>
+					<parameter id="display">InterestItemDisplay</parameter>
+					<parameter id="print">IrwPrintShoppingList</parameter>
+					<parameter id="printKiosk">IrwWSKioskPrintShoppingList</parameter>
+					<parameter id="storeId">7</parameter>
+					<parameter id="langId">-20</parameter>
+				</parameters>
+			</webservice>
+		</webservices>
+		<irwstats func="irwStatTrackRia" active="1" trackversion="2" assettype="other">Generic Template</irwstats>
+	</misc>
+	<movies>
+	
+	</movies>	
+</local_data>
+
+
