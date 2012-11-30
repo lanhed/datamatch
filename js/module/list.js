@@ -100,8 +100,7 @@
 				if (this.globalParseComplete) {
 					App.trigger('status:changed','Done fetching globalData, waiting for your selection.')
 				}
-
-				if (this.errors > 0) {
+ 				if (this.errors > 0) {
 					App.trigger('status:changed','Found error');
 				}
 			} else {
@@ -197,7 +196,7 @@
 					if (response) {
 
 						App.trigger('status:changed', 'Fetching '+ref.type, ref.locale);
-						response = JSON.parse(response);
+						if (typeof response != 'object') response = JSON.parse(response);
 						if (!response.error) {
 							this.parse(response);
 						} else {

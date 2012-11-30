@@ -246,6 +246,7 @@ div#header {
 	width:100%;
 	background-color: #ccc;
 	padding:10px;
+	min-height: 42px;
 }
 
 #deviations {

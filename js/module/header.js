@@ -47,9 +47,10 @@
 	            {id:1,text:'planner_vika'},
 	            {id:2,text:'planner_galant'},
                 {id:3,text:'planner_bathroom'},
-                {id:4,text:'guide_sultan'},
-                {id:5,text:'guide_ledare'},
-                {id:6,text:'guide_sparsam'}
+                {id:4,text:'planner_bestauppleva'},
+                {id:5,text:'guide_sultan'},
+                {id:6,text:'guide_ledare'},
+                {id:7,text:'guide_sparsam'}
 	        ]);
 
             this.locales = new Header.Locales([
